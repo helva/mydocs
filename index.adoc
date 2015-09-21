@@ -1,5 +1,5 @@
-Taiga Documentation
-===================
+Logsign Documentation
+=====================
 :toc: left
 :numbered:
 
@@ -7,150 +7,168 @@ Taiga Documentation
 Introduction
 ------------
 
-Free. Open Source. Powerful. _Taiga_ is a project management platform for startups
-and agile developers & designers who want a simple, beautiful tool that makes work
-truly enjoyable.
+=== About Logsign
 
+=== What is Logsign
 
-Project Maturity
-----------------
+=== What is New in Logsign Version 4
 
-Because _Taiga_ is still a young project we currently consider it to be in a beta state.
-
-
-API
----
-_Taiga_ has a complete REST API (the one used by the web app), check the full API
-documentation link:api.html[here].
-
-
-How it Works
+Installation
 ------------
 
-_Taiga_ is made up of two components: link:https://github.com/taigaio/taiga-front[taiga-front]
-and link:https://github.com/taigaio/taiga-back[taiga-back]
+How to install Logsign. link:installation.html[here]
 
-- *taiga-front* has the frontend related code built with *angularjs* and *coffescript*.
-  It can run on any static file server like nginx.
-- *taiga-back* has the backend related code consisting of an API, built using *django*
-  and *python3*.
+=== Hyper-V
 
-_Taiga_ has some other modules, but they are optional and documented in other sections.
+=== Vmware ESX
 
+=== PC or Server
 
-Requirements
-------------
+Basic Operations and Settings
+-----------------------------
 
-This is a list of major _Taiga_ dependencies:
+=== Mail Settings link:Mail.html[here]
 
-Runtime:
+=== SMS Settings link:SMS.html[here]
 
-- Python 3.4
-- PostgreSQL >= 9.3
-- RabbitMQ (optional as long as you don't want async notifications)
+=== License Control link:License_control.html[here]
 
-Compile time:
-
-- GCC & Development Headers
-- Ruby 2.1 (only for compiling sass)
-- NodeJS 0.10 (with npm, gulp and bower for downloading dependencies and compiling coffeescript)
-
-Hardware
-
-- The main Taiga hardware restriction is having **at least 0.75 GB of RAM memory**. When installing the python requirements the package lxml will use gcc for building it and fail if not enough memory.
-
-Installation Guide
-------------------
-
-This section details everything you need to know to get _Taiga_ up and running
-in both development and production environments.
-
-=== Setup Production Environment
-
-link:setup-production.html[This document contains the complete, step by step tutorial] of how
-to properly setup _Taiga_ for a low traffic production environment.
-
-=== Setup Development Environment
-
-You can view the complete documentation on how to link:setup-development.html[setup a proper
-development environment].
-
-=== Other Ways to Setup an Initial Environment
-
-In addition to the traditional step-by-step manuals, _Taiga_ comes with a
-collection of provisioning scripts and Vagrant support, and
-link:setup-alternatives.html[complete documentation of how to use them].
-
-
-How to Contribute
------------------
-
-Because _Taiga_ is an open source project, we gratefully accept contributions in various forms.
-
-Examples of contributions include:
-
-- Code patches
-- link:#contrib-plugins[Code contrib plugins]
-- Improvements
-- Bug reports
-- Patch reviews
-
-Before starting to develop a big feature (intended to be included on the _Taiga_ code base), it is
-strongly recommended that you reach out to us on the link:http://groups.google.com/d/forum/taigaio[mailing list].
-
-Reporting Bugs
-~~~~~~~~~~~~~~
-
-Before reporting a bug or requesting a new feature, please consider these general points:
-
-- Check that someone hasn't already filed the bug or feature request by searching, or running custom
-  queries in, the ticket tracker.
-- Check the right repository to use for reporting an issue: bugs related to UI should go to *taiga-front*,
-  but if something is broken on the backend, an issue should be opened on the *taiga-back* repository.
-- Ask on the link:http://groups.google.com/d/forum/taigaio[mailing list] first if you're not sure if
-  what you're seeing is a bug.
-- Don't use the GitHub issues system to ask support questions. Use the
-  link:http://groups.google.com/d/forum/taigaio[mailing list] for that.
-- Don’t use GitHub issues for lengthy discussions, because they're likely to get lost. If a particular
-  ticket is controversial, please move the discussion to the
-  link:http://groups.google.com/d/forum/taigaio[mailing list].
-
-Community
-~~~~~~~~~
-
-link:http://groups.google.com/d/forum/taigaio[Taiga has a mailing list]. Feel free to join it
-and ask any questions you may have.
-
-To subscribe for announcements of releases, important changes and so on, please follow
-link:https://twitter.com/taigaio[@taigaio] on Twitter or read our link:https://blog.taiga.io[blog].
-
-Donations
-~~~~~~~~~
-
-We are grateful for your emails volunteering donations to _Taiga_. We feel comfortable accepting them under
-these conditions: the first is that we will only do so while we are in the current beta/pre-revenue stage,
-and the second is that whatever money is donated will go towards a bounty fund. Starting Q2 2015 we will be engaging
-much more actively with our community to help further the development of Taiga, and we will use these
-donations to reward people working alongside us.
-
-If you wish to make a donation to this Taiga fund, you can do so via link:http://www.paypal.com[PayPal]
-using the email: eposner@taiga.io
-
-[[contrib-plugins]]
-Contrib Plugins
+Data Collection
 ---------------
 
-Taiga supports the inclusion of contrib plugins, each plugin has its own
-documentation and repository. The currently supported plugins are:
+=== Syslog
 
-* link:http://github.com/taigaio/taiga-contrib-gogs[taiga-contrib-gogs]: Gogs integration
-* link:http://github.com/taigaio/taiga-contrib-slack[taiga-contrib-slack]: Slack integration
-* link:http://github.com/taigaio/taiga-contrib-hall[taiga-contrib-hall]: Hall.com integration
+=== WMI
 
-License
--------
+=== Agent
 
-Every code patch accepted in the Taiga codebase is accepted under the AGPL v3.0 license. It is important that you
-do not include any code which cannot be licensed under AGPL v3.0.
+=== File Share
 
-You can see the complete license in the `LICENSE` file in the root of repository.
+=== Log Capture Tool
+
+Ready Integrations
+------------------
+
+=== Microsoft Windows
+
+=== Microsoft Exchange
+
+=== Microsoft DHCP
+
+=== Microsoft IIS
+
+=== Sonicwall
+
+=== Fortinet
+
+=== PaloAlto
+
+=== Checkpoint
+
+=== Apache
+
+Reporting
+---------
+
+=== Reporting Overview
+
+=== Templates
+
+==== Count
+
+==== Group Report
+
+==== Grouped Plus Report
+
+==== Map
+
+=== Default Reports
+
+=== Report Scheduling
+
+=== PDF and Excel Reporting
+
+=== Create New Report
+
+=== Modify Reports
+
+=== Report Categories
+
+=== Report Profiles
+
+Search
+------
+
+=== Search Overview
+
+=== Search Basics
+
+=== Search Language
+
+=== Search Analysis
+
+Dashboards
+----------
+
+=== Overview
+
+=== Widgets
+
+=== Dashboard Wizard
+
+Alert and Correlation
+---------------------
+
+=== Overview
+
+=== Default Alert Rules
+
+=== Templates
+
+Delegation
+----------
+
+=== Profiling Overview
+
+=== Interface
+
+=== Report Delegation
+
+=== Alert Delegation
+
+Data Policy Manager
+-------------------
+
+=== Event Filtering
+
+=== Redundancy
+
+=== Indexing
+
+=== Raw Data
+
+Cluster and HA
+--------------
+
+Reference
+---------
+
+=== Smart Fields
+
+=== Event Classification
+
+=== Integrated Device Categorization
+
+=== Default Reports
+
+=== Default Alerts
+
+=== System Requirement
+
+=== Disk Planning
+
+=== Capacity Planning
+
+=== Contacting Customer Support
+
+=== Licensing

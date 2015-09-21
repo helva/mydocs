@@ -11,7 +11,7 @@
 <![endif]-->
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta content="Asciidoctor 1.5.2" name="generator">
-<title>Taiga Documentation</title>
+<title>Logsign Documentation</title>
 <style>/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
 /* Remove the comments around the @import statement below when using this as a custom stylesheet */
 /*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400";*/
@@ -427,72 +427,290 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel1">
 <li>
 <a href="#_introduction">1. Introduction</a>
-
-</li>
-<li>
-<a href="#_project_maturity">2. Project Maturity</a>
-
-</li>
-<li>
-<a href="#_api">3. API</a>
-
-</li>
-<li>
-<a href="#_how_it_works">4. How it Works</a>
-
-</li>
-<li>
-<a href="#_requirements">5. Requirements</a>
-
-</li>
-<li>
-<a href="#_installation_guide">6. Installation Guide</a>
 <div class="mp-level">
 <a class="mp-back" href="#">back</a>
 <ul class="sectlevel2">
 <li>
-<a href="#_setup_production_environment">6.1. Setup Production Environment</a>
+<a href="#_about_logsign">1.1. About Logsign</a>
 </li>
 <li>
-<a href="#_setup_development_environment">6.2. Setup Development Environment</a>
+<a href="#_what_is_logsign">1.2. What is Logsign</a>
 </li>
 <li>
-<a href="#_other_ways_to_setup_an_initial_environment">6.3. Other Ways to Setup an Initial Environment</a>
+<a href="#_what_is_new_in_logsign_version_4">1.3. What is New in Logsign Version 4</a>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<a href="#_how_to_contribute">7. How to Contribute</a>
+<a href="#_installation">2. Installation</a>
 <div class="mp-level">
 <a class="mp-back" href="#">back</a>
 <ul class="sectlevel2">
 <li>
-<a href="#_reporting_bugs">7.1. Reporting Bugs</a>
+<a href="#_hyper_v">2.1. Hyper-V</a>
 </li>
 <li>
-<a href="#_community">7.2. Community</a>
+<a href="#_vmware_esx">2.2. Vmware ESX</a>
 </li>
 <li>
-<a href="#_donations">7.3. Donations</a>
+<a href="#_pc_or_server">2.3. PC or Server</a>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<a href="#contrib-plugins">8. Contrib Plugins</a>
+<a href="#_basic_operations_and_settings">3. Basic Operations and Settings</a>
+<div class="mp-level">
+<a class="mp-back" href="#">back</a>
+<ul class="sectlevel2">
+<li>
+<a href="#_mail_settings">3.1. Mail Settings</a>
+</li>
+<li>
+<a href="#_sms_settings">3.2. SMS Settings</a>
+</li>
+<li>
+<a href="#_license_control">3.3. License Control</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<a href="#_data_collection">4. Data Collection</a>
+<div class="mp-level">
+<a class="mp-back" href="#">back</a>
+<ul class="sectlevel2">
+<li>
+<a href="#_syslog">4.1. Syslog</a>
+</li>
+<li>
+<a href="#_wmi">4.2. WMI</a>
+</li>
+<li>
+<a href="#_agent">4.3. Agent</a>
+</li>
+<li>
+<a href="#_file_share">4.4. File Share</a>
+</li>
+<li>
+<a href="#_log_capture_tool">4.5. Log Capture Tool</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<a href="#_ready_integrations">5. Ready Integrations</a>
+<div class="mp-level">
+<a class="mp-back" href="#">back</a>
+<ul class="sectlevel2">
+<li>
+<a href="#_microsoft_windows">5.1. Microsoft Windows</a>
+</li>
+<li>
+<a href="#_microsoft_exchange">5.2. Microsoft Exchange</a>
+</li>
+<li>
+<a href="#_microsoft_dhcp">5.3. Microsoft DHCP</a>
+</li>
+<li>
+<a href="#_microsoft_iis">5.4. Microsoft IIS</a>
+</li>
+<li>
+<a href="#_sonicwall">5.5. Sonicwall</a>
+</li>
+<li>
+<a href="#_fortinet">5.6. Fortinet</a>
+</li>
+<li>
+<a href="#_paloalto">5.7. PaloAlto</a>
+</li>
+<li>
+<a href="#_checkpoint">5.8. Checkpoint</a>
+</li>
+<li>
+<a href="#_apache">5.9. Apache</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<a href="#_reporting">6. Reporting</a>
+<div class="mp-level">
+<a class="mp-back" href="#">back</a>
+<ul class="sectlevel2">
+<li>
+<a href="#_reporting_overview">6.1. Reporting Overview</a>
+</li>
+<li>
+<a href="#_templates">6.2. Templates</a>
+</li>
+<li>
+<a href="#_default_reports">6.3. Default Reports</a>
+</li>
+<li>
+<a href="#_report_scheduling">6.4. Report Scheduling</a>
+</li>
+<li>
+<a href="#_pdf_and_excel_reporting">6.5. PDF and Excel Reporting</a>
+</li>
+<li>
+<a href="#_create_new_report">6.6. Create New Report</a>
+</li>
+<li>
+<a href="#_modify_reports">6.7. Modify Reports</a>
+</li>
+<li>
+<a href="#_report_categories">6.8. Report Categories</a>
+</li>
+<li>
+<a href="#_report_profiles">6.9. Report Profiles</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<a href="#_search">7. Search</a>
+<div class="mp-level">
+<a class="mp-back" href="#">back</a>
+<ul class="sectlevel2">
+<li>
+<a href="#_search_overview">7.1. Search Overview</a>
+</li>
+<li>
+<a href="#_search_basics">7.2. Search Basics</a>
+</li>
+<li>
+<a href="#_search_language">7.3. Search Language</a>
+</li>
+<li>
+<a href="#_search_analysis">7.4. Search Analysis</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<a href="#_dashboards">8. Dashboards</a>
+<div class="mp-level">
+<a class="mp-back" href="#">back</a>
+<ul class="sectlevel2">
+<li>
+<a href="#_overview">8.1. Overview</a>
+</li>
+<li>
+<a href="#_widgets">8.2. Widgets</a>
+</li>
+<li>
+<a href="#_dashboard_wizard">8.3. Dashboard Wizard</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<a href="#_alert_and_correlation">9. Alert and Correlation</a>
+<div class="mp-level">
+<a class="mp-back" href="#">back</a>
+<ul class="sectlevel2">
+<li>
+<a href="#_overview_2">9.1. Overview</a>
+</li>
+<li>
+<a href="#_default_alert_rules">9.2. Default Alert Rules</a>
+</li>
+<li>
+<a href="#_templates_2">9.3. Templates</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<a href="#_delegation">10. Delegation</a>
+<div class="mp-level">
+<a class="mp-back" href="#">back</a>
+<ul class="sectlevel2">
+<li>
+<a href="#_profiling_overview">10.1. Profiling Overview</a>
+</li>
+<li>
+<a href="#_interface">10.2. Interface</a>
+</li>
+<li>
+<a href="#_report_delegation">10.3. Report Delegation</a>
+</li>
+<li>
+<a href="#_alert_delegation">10.4. Alert Delegation</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<a href="#_data_policy_manager">11. Data Policy Manager</a>
+<div class="mp-level">
+<a class="mp-back" href="#">back</a>
+<ul class="sectlevel2">
+<li>
+<a href="#_event_filtering">11.1. Event Filtering</a>
+</li>
+<li>
+<a href="#_redundancy">11.2. Redundancy</a>
+</li>
+<li>
+<a href="#_indexing">11.3. Indexing</a>
+</li>
+<li>
+<a href="#_raw_data">11.4. Raw Data</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<a href="#_cluster_and_ha">12. Cluster and HA</a>
 
 </li>
 <li>
-<a href="#_license">9. License</a>
-
+<a href="#_reference">13. Reference</a>
+<div class="mp-level">
+<a class="mp-back" href="#">back</a>
+<ul class="sectlevel2">
+<li>
+<a href="#_smart_fields">13.1. Smart Fields</a>
+</li>
+<li>
+<a href="#_event_classification">13.2. Event Classification</a>
+</li>
+<li>
+<a href="#_integrated_device_categorization">13.3. Integrated Device Categorization</a>
+</li>
+<li>
+<a href="#_default_reports_2">13.4. Default Reports</a>
+</li>
+<li>
+<a href="#_default_alerts">13.5. Default Alerts</a>
+</li>
+<li>
+<a href="#_system_requirement">13.6. System Requirement</a>
+</li>
+<li>
+<a href="#_disk_planning">13.7. Disk Planning</a>
+</li>
+<li>
+<a href="#_capacity_planning">13.8. Capacity Planning</a>
+</li>
+<li>
+<a href="#_contacting_customer_support">13.9. Contacting Customer Support</a>
+</li>
+<li>
+<a href="#_licensing">13.10. Licensing</a>
+</li>
+</ul>
+</div>
 </li>
 </ul>
 </div>
 </div>
 <div class="scroller">
 <div id="header">
-<h1>Taiga Documentation</h1>
+<h1>Logsign Documentation</h1>
 </div>
 <div id="content">
 <div class="sect1">
@@ -503,28 +721,82 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 and agile developers &amp; designers who want a simple, beautiful tool that makes work
 truly enjoyable.</p>
 </div>
+<div class="sect2">
+<h3 id="_about_logsign">1.1. About Logsign</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_what_is_logsign">1.2. What is Logsign</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_what_is_new_in_logsign_version_4">1.3. What is New in Logsign Version 4</h3>
+
+</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_project_maturity">2. Project Maturity</h2>
+<h2 id="_installation">2. Installation</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Because <em>Taiga</em> is still a young project we currently consider it to be in a beta state.</p>
 </div>
+<div class="sect2">
+<h3 id="_hyper_v">2.1. Hyper-V</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_vmware_esx">2.2. Vmware ESX</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_pc_or_server">2.3. PC or Server</h3>
+
+</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_api">3. API</h2>
+<h2 id="_basic_operations_and_settings">3. Basic Operations and Settings</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><em>Taiga</em> has a complete REST API (the one used by the web app), check the full API
 documentation <a href="api.html">here</a>.</p>
 </div>
+<div class="sect2">
+<h3 id="_mail_settings">3.1. Mail Settings</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_sms_settings">3.2. SMS Settings</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_license_control">3.3. License Control</h3>
+
+</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_how_it_works">4. How it Works</h2>
+<h2 id="_data_collection">4. Data Collection</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_syslog">4.1. Syslog</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_wmi">4.2. WMI</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_agent">4.3. Agent</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_file_share">4.4. File Share</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_log_capture_tool">4.5. Log Capture Tool</h3>
 <div class="paragraph">
 <p><em>Taiga</em> is made up of two components: <a href="https://github.com/taigaio/taiga-front">taiga-front</a>
 and <a href="https://github.com/taigaio/taiga-back">taiga-back</a></p>
@@ -546,9 +818,44 @@ and <strong>python3</strong>.</p>
 </div>
 </div>
 </div>
+</div>
 <div class="sect1">
-<h2 id="_requirements">5. Requirements</h2>
+<h2 id="_ready_integrations">5. Ready Integrations</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_microsoft_windows">5.1. Microsoft Windows</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_microsoft_exchange">5.2. Microsoft Exchange</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_microsoft_dhcp">5.3. Microsoft DHCP</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_microsoft_iis">5.4. Microsoft IIS</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_sonicwall">5.5. Sonicwall</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_fortinet">5.6. Fortinet</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_paloalto">5.7. PaloAlto</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_checkpoint">5.8. Checkpoint</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_apache">5.9. Apache</h3>
 <div class="paragraph">
 <p>This is a list of major <em>Taiga</em> dependencies:</p>
 </div>
@@ -596,39 +903,79 @@ and <strong>python3</strong>.</p>
 </div>
 </div>
 </div>
+</div>
 <div class="sect1">
-<h2 id="_installation_guide">6. Installation Guide</h2>
+<h2 id="_reporting">6. Reporting</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>This section details everything you need to know to get <em>Taiga</em> up and running
 in both development and production environments.</p>
 </div>
 <div class="sect2">
-<h3 id="_setup_production_environment">6.1. Setup Production Environment</h3>
+<h3 id="_reporting_overview">6.1. Reporting Overview</h3>
 <div class="paragraph">
 <p><a href="setup-production.html">This document contains the complete, step by step tutorial</a> of how
 to properly setup <em>Taiga</em> for a low traffic production environment.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_setup_development_environment">6.2. Setup Development Environment</h3>
+<h3 id="_templates">6.2. Templates</h3>
+<div class="sect3">
+<h4 id="_count">6.2.1. Count</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_group_report">6.2.2. Group Report</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_grouped_plus_report">6.2.3. Grouped Plus Report</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_map">6.2.4. Map</h4>
 <div class="paragraph">
 <p>You can view the complete documentation on how to <a href="setup-development.html">setup a proper
 development environment</a>.</p>
 </div>
 </div>
+</div>
 <div class="sect2">
-<h3 id="_other_ways_to_setup_an_initial_environment">6.3. Other Ways to Setup an Initial Environment</h3>
+<h3 id="_default_reports">6.3. Default Reports</h3>
 <div class="paragraph">
 <p>In addition to the traditional step-by-step manuals, <em>Taiga</em> comes with a
 collection of provisioning scripts and Vagrant support, and
 <a href="setup-alternatives.html">complete documentation of how to use them</a>.</p>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_report_scheduling">6.4. Report Scheduling</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_pdf_and_excel_reporting">6.5. PDF and Excel Reporting</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_create_new_report">6.6. Create New Report</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_modify_reports">6.7. Modify Reports</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_report_categories">6.8. Report Categories</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_report_profiles">6.9. Report Profiles</h3>
+
+</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_how_to_contribute">7. How to Contribute</h2>
+<h2 id="_search">7. Search</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Because <em>Taiga</em> is an open source project, we gratefully accept contributions in various forms.</p>
@@ -660,7 +1007,7 @@ collection of provisioning scripts and Vagrant support, and
 strongly recommended that you reach out to us on the <a href="http://groups.google.com/d/forum/taigaio">mailing list</a>.</p>
 </div>
 <div class="sect2">
-<h3 id="_reporting_bugs">7.1. Reporting Bugs</h3>
+<h3 id="_search_overview">7.1. Search Overview</h3>
 <div class="paragraph">
 <p>Before reporting a bug or requesting a new feature, please consider these general points:</p>
 </div>
@@ -691,7 +1038,7 @@ ticket is controversial, please move the discussion to the
 </div>
 </div>
 <div class="sect2">
-<h3 id="_community">7.2. Community</h3>
+<h3 id="_search_basics">7.2. Search Basics</h3>
 <div class="paragraph">
 <p><a href="http://groups.google.com/d/forum/taigaio">Taiga has a mailing list</a>. Feel free to join it
 and ask any questions you may have.</p>
@@ -702,7 +1049,7 @@ and ask any questions you may have.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_donations">7.3. Donations</h3>
+<h3 id="_search_language">7.3. Search Language</h3>
 <div class="paragraph">
 <p>We are grateful for your emails volunteering donations to <em>Taiga</em>. We feel comfortable accepting them under
 these conditions: the first is that we will only do so while we are in the current beta/pre-revenue stage,
@@ -715,10 +1062,14 @@ donations to reward people working alongside us.</p>
 using the email: <a href="mailto:eposner@taiga.io">eposner@taiga.io</a></p>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_search_analysis">7.4. Search Analysis</h3>
+
+</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="contrib-plugins">8. Contrib Plugins</h2>
+<h2 id="_dashboards">8. Dashboards</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Taiga supports the inclusion of contrib plugins, each plugin has its own
@@ -737,10 +1088,22 @@ documentation and repository. The currently supported plugins are:</p>
 </li>
 </ul>
 </div>
+<div class="sect2">
+<h3 id="_overview">8.1. Overview</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_widgets">8.2. Widgets</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_dashboard_wizard">8.3. Dashboard Wizard</h3>
+
+</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_license">9. License</h2>
+<h2 id="_alert_and_correlation">9. Alert and Correlation</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Every code patch accepted in the Taiga codebase is accepted under the AGPL v3.0 license. It is important that you
@@ -749,12 +1112,117 @@ do not include any code which cannot be licensed under AGPL v3.0.</p>
 <div class="paragraph">
 <p>You can see the complete license in the <code>LICENSE</code> file in the root of repository.</p>
 </div>
+<div class="sect2">
+<h3 id="_overview_2">9.1. Overview</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_default_alert_rules">9.2. Default Alert Rules</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_templates_2">9.3. Templates</h3>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_delegation">10. Delegation</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_profiling_overview">10.1. Profiling Overview</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_interface">10.2. Interface</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_report_delegation">10.3. Report Delegation</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_alert_delegation">10.4. Alert Delegation</h3>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_data_policy_manager">11. Data Policy Manager</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_event_filtering">11.1. Event Filtering</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_redundancy">11.2. Redundancy</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_indexing">11.3. Indexing</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_raw_data">11.4. Raw Data</h3>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cluster_and_ha">12. Cluster and HA</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="_reference">13. Reference</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_smart_fields">13.1. Smart Fields</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_event_classification">13.2. Event Classification</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_integrated_device_categorization">13.3. Integrated Device Categorization</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_default_reports_2">13.4. Default Reports</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_default_alerts">13.5. Default Alerts</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_system_requirement">13.6. System Requirement</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_disk_planning">13.7. Disk Planning</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_capacity_planning">13.8. Capacity Planning</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_contacting_customer_support">13.9. Contacting Customer Support</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_licensing">13.10. Licensing</h3>
+
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2015-09-21 15:18:11 EEST
+Last updated 2015-09-21 16:48:17 EEST
 </div>
 </div>
 </div>
