@@ -1,0 +1,1153 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>taigaio/taiga-doc · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="taigaio/taiga-doc" name="twitter:title" /><meta content="taiga-doc - Taiga documentation source." name="twitter:description" /><meta content="https://avatars0.githubusercontent.com/u/6905422?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars0.githubusercontent.com/u/6905422?v=3&amp;s=400" property="og:image" /><meta content="taigaio/taiga-doc" property="og:title" /><meta content="https://github.com/taigaio/taiga-doc" property="og:url" /><meta content="taiga-doc - Taiga documentation source." property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+        <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="5F00C0A4:54DA:4F491DD:55FFF551" name="octolytics-dimension-request_id" />
+    
+    <meta content="Rails, view, files#disambiguate" data-pjax-transient="true" name="analytics-event" />
+    <meta class="js-ga-set" name="dimension1" content="Logged Out">
+      <meta class="js-ga-set" name="dimension4" content="Current repo nav">
+    <meta name="is-dotcom" content="true">
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <!-- </textarea> --><!-- '"` --><meta content="authenticity_token" name="csrf-param" />
+<meta content="Tfe3WvTSh/eKWiRvAg0AS0fvy1kP9e0kTpUCXeOtGgB1dg1vTRedxqIiyDoDLrtoGQs9FBiOnl39SEXLub4A7g==" name="csrf-token" />
+    
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-aef3088517c60128e10c5cce8d392985504018745a58a13691f1a278951852bb.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2-eba1f472eb1c7c893e4310c05138905845443f7f2469812a9bd2ba71aa488cc5.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="87dbf4dad0b70976ed64b3bf4976701e">
+
+      
+  <meta name="description" content="taiga-doc - Taiga documentation source.">
+  <meta name="go-import" content="github.com/taigaio/taiga-doc git https://github.com/taigaio/taiga-doc.git">
+
+  <meta content="6905422" name="octolytics-dimension-user_id" /><meta content="taigaio" name="octolytics-dimension-user_login" /><meta content="24615776" name="octolytics-dimension-repository_id" /><meta content="taigaio/taiga-doc" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="24615776" name="octolytics-dimension-repository_network_root_id" /><meta content="taigaio/taiga-doc" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/taigaio/taiga-doc/commits/master.atom" rel="alternate" title="Recent Commits to taiga-doc:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+
+    
+    
+    
+
+
+
+      
+      <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2Ftaigaio%2Ftaiga-doc" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/taigaio/taiga-doc/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/taigaio/taiga-doc/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      aria-label="Search this repository"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/pricing" data-ga-click="(Logged out) Header, go to pricing, text:pricing">Pricing</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+    <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+    <div role="main" class="main-content">
+        <div itemscope itemtype="http://schema.org/WebPage">
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+
+      <div class="container">
+
+        <div class="clearfix">
+          
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Ftaigaio%2Ftaiga-doc"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/taigaio/taiga-doc/watchers">
+    19
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Ftaigaio%2Ftaiga-doc"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/taigaio/taiga-doc/stargazers">
+      75
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Ftaigaio%2Ftaiga-doc"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+
+    <a href="/taigaio/taiga-doc/network" class="social-count">
+      56
+    </a>
+  </li>
+</ul>
+
+          <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public ">
+  <span class="mega-octicon octicon-repo"></span>
+  <span class="author"><a href="/taigaio" class="url fn" itemprop="url" rel="author"><span itemprop="title">taigaio</span></a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong><a href="/taigaio/taiga-doc" data-pjax="#js-repo-pjax-container">taiga-doc</a></strong>
+
+  <span class="page-context-loader">
+    <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+  </span>
+
+</h1>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline with-full-navigation">
+        <div class="repository-sidebar clearfix">
+          
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/taigaio/taiga-doc/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/taigaio/taiga-doc" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /taigaio/taiga-doc">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/taigaio/taiga-doc/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /taigaio/taiga-doc/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/taigaio/taiga-doc/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /taigaio/taiga-doc/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/taigaio/taiga-doc/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /taigaio/taiga-doc/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/taigaio/taiga-doc/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /taigaio/taiga-doc/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+            <div class="only-with-full-nav">
+                
+<div class="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/taigaio/taiga-doc.git" readonly="readonly" aria-label="HTTPS clone URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/taigaio/taiga-doc" readonly="readonly" aria-label="Subversion checkout URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<div class="clone-options">You can clone with
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-form-nonce="d72fe58685e26176df12119634fb5b290aef52f1" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="3SF0YBLloPN4cfGhRV8It91smRZ/vHRV3iNGgiExbmxKfYFcLDp8YJKM4VB2ixDn1LHlU527k9+Xy69EC+cFgQ==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form> or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-form-nonce="d72fe58685e26176df12119634fb5b290aef52f1" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="VTzqvD5O1wIZ4tqLuxgOM7FAxBCSqpDhYtt6v01xfRTAnZOE0rjlR/xLRmAlbCnoGaznnQ+uzGoAL2C173lsag==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</div>
+
+              <a href="/taigaio/taiga-doc/archive/master.zip"
+                 class="btn btn-sm sidebar-button"
+                 aria-label="Download the contents of taigaio/taiga-doc as a zip file"
+                 title="Download the contents of taigaio/taiga-doc as a zip file"
+                 rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div>
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+          
+<span id="js-show-full-navigation"></span>
+
+  <div class="repository-meta js-details-container ">
+    <div class="repository-description">
+      Taiga documentation source.
+    </div>
+
+    <div class="repository-website">
+      <a href="http://taigaio.github.io/taiga-doc/dist/" rel="nofollow">http://taigaio.github.io/taiga-doc/dist/</a>
+    </div>
+
+</div>
+
+
+<div class="overall-summary overall-summary-bottomless">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/taigaio/taiga-doc/commits/master">
+            <span class="octicon octicon-history"></span>
+            <span class="num text-emphasized">
+              308
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/taigaio/taiga-doc/branches">
+          <span class="octicon octicon-git-branch"></span>
+          <span class="num text-emphasized">
+            11
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/taigaio/taiga-doc/releases">
+          <span class="octicon octicon-tag"></span>
+          <span class="num text-emphasized">
+            0
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="/taigaio/taiga-doc/graphs/contributors">
+    <span class="octicon octicon-organization"></span>
+    <span class="num text-emphasized">
+      21
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/taigaio/taiga-doc/search?l=html">
+                <span class="color-block language-color" style="background-color:#e44b23;"></span>
+                <span class="lang">HTML</span>
+                <span class="percent">39.8%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/taigaio/taiga-doc/search?l=css">
+                <span class="color-block language-color" style="background-color:#563d7c;"></span>
+                <span class="lang">CSS</span>
+                <span class="percent">23.6%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/taigaio/taiga-doc/search?l=javascript">
+                <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">20.6%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/taigaio/taiga-doc/search?l=ruby">
+                <span class="color-block language-color" style="background-color:#701516;"></span>
+                <span class="lang">Ruby</span>
+                <span class="percent">9.1%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/taigaio/taiga-doc/search?l=bash">
+                <span class="color-block language-color" style="background-color:#89e051;"></span>
+                <span class="lang">Shell</span>
+                <span class="percent">4.2%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/taigaio/taiga-doc/search?l=makefile">
+                <span class="color-block language-color" style="background-color:#427819;"></span>
+                <span class="lang">Makefile</span>
+                <span class="percent">2.7%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details">
+    <span class="language-color" aria-label="HTML 39.8%" style="width:39.8%; background-color:#e44b23;" itemprop="keywords">HTML</span>
+    <span class="language-color" aria-label="CSS 23.6%" style="width:23.6%; background-color:#563d7c;" itemprop="keywords">CSS</span>
+    <span class="language-color" aria-label="JavaScript 20.6%" style="width:20.6%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span>
+    <span class="language-color" aria-label="Ruby 9.1%" style="width:9.1%; background-color:#701516;" itemprop="keywords">Ruby</span>
+    <span class="language-color" aria-label="Shell 4.2%" style="width:4.2%; background-color:#89e051;" itemprop="keywords">Shell</span>
+    <span class="language-color" aria-label="Makefile 2.7%" style="width:2.7%; background-color:#427819;" itemprop="keywords">Makefile</span>
+  </div>
+
+<include-fragment src="/taigaio/taiga-doc/show_partial?partial=tree%2Frecently_touched_branches_list"></include-fragment>
+
+  <div class="file-navigation in-mid-page">
+  <a href="/taigaio/taiga-doc/find/master"
+        class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-s right"
+        data-pjax
+        data-hotkey="t"
+        aria-label="Quickly jump between files"
+        data-ga-click="Repository, find file, location:repo overview">
+    <span class="octicon octicon-list-unordered"></span>
+  </a>
+    <a href="/taigaio/taiga-doc/compare" aria-label="Compare, review, create a pull request" class="btn btn-sm btn-primary tooltipped tooltipped-se left compare-button" aria-label="Compare &amp; review" data-pjax data-ga-click="Repository, go to compare view, location:repo overview; icon:git-compare">
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <i>Branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/taigaio/taiga-doc/tree/external-applications-authentication"
+               data-name="external-applications-authentication"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="external-applications-authentication">
+                external-applications-authentication
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/taigaio/taiga-doc/tree/fix-project-response"
+               data-name="fix-project-response"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="fix-project-response">
+                fix-project-response
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/taigaio/taiga-doc/tree/gh-pages"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="gh-pages">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/taigaio/taiga-doc/tree/issue/2785/fix-user-mentions"
+               data-name="issue/2785/fix-user-mentions"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="issue/2785/fix-user-mentions">
+                issue/2785/fix-user-mentions
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/taigaio/taiga-doc/tree/issue/2851/closed_milestones_errors"
+               data-name="issue/2851/closed_milestones_errors"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="issue/2851/closed_milestones_errors">
+                issue/2851/closed_milestones_errors
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/taigaio/taiga-doc/tree/issue/2995/add-custom-video-conference"
+               data-name="issue/2995/add-custom-video-conference"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="issue/2995/add-custom-video-conference">
+                issue/2995/add-custom-video-conference
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/taigaio/taiga-doc/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/taigaio/taiga-doc/tree/new-search-results-format"
+               data-name="new-search-results-format"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="new-search-results-format">
+                new-search-results-format
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/taigaio/taiga-doc/tree/new-style"
+               data-name="new-style"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="new-style">
+                new-style
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/taigaio/taiga-doc/tree/themes-doc"
+               data-name="themes-doc"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="themes-doc">
+                themes-doc
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/taigaio/taiga-doc/tree/watchers-voters-and-favourites-refactor"
+               data-name="watchers-voters-and-favourites-refactor"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="watchers-voters-and-favourites-refactor">
+                watchers-voters-and-favourites-refactor
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <div class="breadcrumb"><span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/taigaio/taiga-doc" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">taiga-doc</span></a></span></span><span class="separator">/</span>
+  <span class="tooltipped tooltipped-e disabled text-muted" aria-label="You must be signed in to make or propose changes">
+    <span class="octicon octicon-plus"></span>
+  </span>
+</div>
+</div>
+
+
+
+
+
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/taigaio/taiga-doc/commit/e63056c41c4ffdb6fbbd85acb16a5145e3cb78cc" class="message" data-pjax="true" title="Merge pull request #88 from taigaio/removing-description-and-description-html-from-listing-api-calls
+
+Removing description and description_html from listings in user-stories, tasks and issues">Merge pull request</a> <a href="https://github.com/taigaio/taiga-doc/pull/88" class="issue-link" title="Removing description and description_html from listings in user-stories, tasks and issues">#88</a> <a href="/taigaio/taiga-doc/commit/e63056c41c4ffdb6fbbd85acb16a5145e3cb78cc" class="message" data-pjax="true" title="Merge pull request #88 from taigaio/removing-description-and-description-html-from-listing-api-calls
+
+Removing description and description_html from listings in user-stories, tasks and issues">from taigaio/removing-description-and-descript…</a>
+        <span class="hidden-text-expander inline"><a href="#" class="js-details-target">…</a></span>
+    </p>
+      <div class="commit-desc"><pre>…ion-html-from-listing-api-calls
+
+Removing description and description_html from listings in user-stories, tasks and issues</pre></div>
+    <div class="commit-meta">
+      <button aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link tooltipped tooltipped-s" data-clipboard-text="e63056c41c4ffdb6fbbd85acb16a5145e3cb78cc" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <a href="/taigaio/taiga-doc/commit/e63056c41c4ffdb6fbbd85acb16a5145e3cb78cc" class="sha-block" data-pjax>latest commit <span class="sha">e63056c41c</span></a>
+
+      <div class="authorship">
+        <img alt="@jespino" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/290303?v=3&amp;s=40" width="20" />
+        <span class="author-name"><a href="/jespino" rel="contributor">jespino</a></span>
+        authored <time class="updated" datetime="2015-09-09T06:29:44Z" is="relative-time">Sep 9, 2015</time>
+
+      </div>
+    </div>
+  </div>
+
+
+<div class="file-wrap">
+  <a href="/taigaio/taiga-doc/tree/e63056c41c4ffdb6fbbd85acb16a5145e3cb78cc" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><span class="octicon octicon-alert"></span></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/tree/master/api" class="js-directory-link js-navigation-open" id="8a5da52ed126447d359e70c05721a8aa-aa35d2313c74d970c4182175a13b100dd939860b" title="api">api</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/3b0bcec00391b8fb02fc03c77dc376a007467108" class="message" data-pjax="true" title="Removing description and description_html from listings in user-stories, tasks and issues">Removing description and description_html from listings in user-stori…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-09-09T06:28:38Z" is="time-ago">Sep 9, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/tree/master/assets" class="js-directory-link js-navigation-open" id="32bb636196f91ed59d7a49190e26b42c-f075d7bb52a38cf7c90adc7a0a44e9214bd29e6a" title="assets">assets</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/e3e6d89b7eb6245a5a240baad363883ba2d17326" class="message" data-pjax="true" title="Change style to make documentation more readable">Change style to make documentation more readable</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-04T11:05:56Z" is="time-ago">May 4, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/tree/master/custom-html5" class="js-directory-link js-navigation-open" id="be50efbf9929e550e7f1636d58f771ee-1720c203caa473607f386adad0ba08ac1c78229d" title="custom-html5">custom-html5</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/6b3954c285bd3b86cc1f563f5ef4c89b62accb20" class="message" data-pjax="true" title="Implement Multi-level Push Menu">Implement Multi-level Push Menu</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-04-13T12:37:05Z" is="time-ago">Apr 13, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/tree/master/dist" class="js-directory-link js-navigation-open" id="2a6d07eef8b10b84129b42424ed99327-83ebd5deee013cff52d8c89c51e974f75a51352c" title="dist">dist</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/64f3d5cdfc300ca3f10b811ecff87e008b537b1c" class="message" data-pjax="true" title="Remove useless static files.">Remove useless static files.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-10-08T19:12:22Z" is="time-ago">Oct 8, 2014</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/tree/master/tests" class="js-directory-link js-navigation-open" id="b61a6d542f9036550ba9c401c80f00ef-c3b8a6825d8d0514d334ef664a87a67736a04965" title="tests">tests</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/f5bebed2bf27c4049939a60092b934765086542f" class="message" data-pjax="true" title="Improve JSON trailing commas script
+
+* Change `rgrep` to `grep -r`
+* Incorporate excludes file to ignore false-positive results">Improve JSON trailing commas script</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-26T19:01:41Z" is="time-ago">Jan 26, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/blob/master/.gitignore" class="js-directory-link js-navigation-open" id="a084b794bc0759e7a6b77810e01874f2-ac832c199d0483c5e0e3863ff177f934f23ee514" title=".gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/cb44fed7608683f4d159aa717a8903b3a411bd73" class="message" data-pjax="true" title="Ignore Gemfile.lock">Ignore Gemfile.lock</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-02-01T12:13:41Z" is="time-ago">Feb 1, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/blob/master/Gemfile" class="js-directory-link js-navigation-open" id="8b7db4d5cc4b8f6dc8feb7030baa2478-eab6705ec754657fb402b7de4b6dd67056af9ff2" title="Gemfile">Gemfile</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/670ee309f683d52f7d93c023a2d231a92d6f7295" class="message" data-pjax="true" title="Removing gem installs from README and updating Gemfile">Removing gem installs from README and updating Gemfile</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-04-14T04:59:05Z" is="time-ago">Apr 14, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/blob/master/Guardfile" class="js-directory-link js-navigation-open" id="98f0657221f21d4a8adae4120e31c29b-a541a147b72fa769a8fe5b3e5e76e39647cad860" title="Guardfile">Guardfile</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/04c3b3dcbeaa0576d22e89a6dac7d02d985f82f7" class="message" data-pjax="true" title="Notify re: JSON trailing commas using new Guardfile, Guard run through bundle
+
+* Overview: Using Guard to run test and show notifications
+* Need to install Guard according to official instructions from:
+  https://github.com/guard/guard#readme:
+  &quot;It&#39;s important that you always run Guard through Bundler to avoid errors.&quot;
+* New script to perform check for JSON trailing commas; used in 2 ways:
+  1. Guard =&gt; file just modified
+  2. build-docs.sh =&gt; check all .adoc files in taiga-doc (warnings, no exit)
+* Guardfile improvements:
+  - Works with new .adoc files automatically
+  - Notifies user where a match in Makefile is not found
+  - Works with multiple line matches in Makefile
+  - Centralised into 1 watch so much easier to add more tests or make changes">Notify re: JSON trailing commas using new Guardfile, Guard run throug…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-26T09:55:38Z" is="time-ago">Jan 26, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/blob/master/Makefile" class="js-directory-link js-navigation-open" id="b67911656ef5d18c4ae36cb6741b7965-1535cba39bdc3c482d91bdb950ee693c60d62ac2" title="Makefile">Makefile</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/6b3954c285bd3b86cc1f563f5ef4c89b62accb20" class="message" data-pjax="true" title="Implement Multi-level Push Menu">Implement Multi-level Push Menu</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-04-13T12:37:05Z" is="time-ago">Apr 13, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/blob/master/README.md" class="js-directory-link js-navigation-open" id="04c6e90faac2675aa89e2176d2eec7d8-f7615d3e227ef2c981913567cb1d0c66fd8f1e09" title="README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/670ee309f683d52f7d93c023a2d231a92d6f7295" class="message" data-pjax="true" title="Removing gem installs from README and updating Gemfile">Removing gem installs from README and updating Gemfile</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-04-14T04:59:05Z" is="time-ago">Apr 14, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/blob/master/build-docs.sh" class="js-directory-link js-navigation-open" id="5ed0c92452da5562e17d486a18d40639-7c004265376ca09f6356923cbc378090c9d239a5" title="build-docs.sh">build-docs.sh</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/04c3b3dcbeaa0576d22e89a6dac7d02d985f82f7" class="message" data-pjax="true" title="Notify re: JSON trailing commas using new Guardfile, Guard run through bundle
+
+* Overview: Using Guard to run test and show notifications
+* Need to install Guard according to official instructions from:
+  https://github.com/guard/guard#readme:
+  &quot;It&#39;s important that you always run Guard through Bundler to avoid errors.&quot;
+* New script to perform check for JSON trailing commas; used in 2 ways:
+  1. Guard =&gt; file just modified
+  2. build-docs.sh =&gt; check all .adoc files in taiga-doc (warnings, no exit)
+* Guardfile improvements:
+  - Works with new .adoc files automatically
+  - Notifies user where a match in Makefile is not found
+  - Works with multiple line matches in Makefile
+  - Centralised into 1 watch so much easier to add more tests or make changes">Notify re: JSON trailing commas using new Guardfile, Guard run throug…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-26T09:55:38Z" is="time-ago">Jan 26, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/blob/master/index.adoc" class="js-directory-link js-navigation-open" id="5def138ce6fe0a0fba569afd32354f9e-603fbd0f97351fa19f2579579ec0070aabee2c61" title="index.adoc">index.adoc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/ae570fbea26c3de1b3fff8fdee81d0335d6a1162" class="message" data-pjax="true" title="Adding basic hw requirements">Adding basic hw requirements</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-04-08T06:04:48Z" is="time-ago">Apr 8, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/blob/master/setup-alternatives.adoc" class="js-directory-link js-navigation-open" id="2e7b02275f30e577ce071bafc2f360dc-c434ad1582aa44fafb6e88e7c5ebfbe9203112e1" title="setup-alternatives.adoc">setup-alternatives.adoc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/9302914b75d762c3507823d2da1612e9ca8046fe" class="message" data-pjax="true" title="Adding my own docker container to the list of known containers.">Adding my own docker container to the list of known containers.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-08-26T05:47:57Z" is="time-ago">Aug 26, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/blob/master/setup-development.adoc" class="js-directory-link js-navigation-open" id="5f6c8c6c94c662a092a5e315be5cb035-04954783e29f0a7decfb5aba4bde61e95dd21eec" title="setup-development.adoc">setup-development.adoc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/d748f14604cd4a04ea260053a58984030b02466d" class="message" data-pjax="true" title="Adding notice about root user">Adding notice about root user</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-02T09:36:34Z" is="time-ago">Jun 2, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/blob/master/setup-production.adoc" class="js-directory-link js-navigation-open" id="3a628f9823db01a4ed814f1abaa11289-05f97cd4a965d6a728febea576a3a6defb1ee1b7" title="setup-production.adoc">setup-production.adoc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/bcafdfbe2a042b37c819774902b25311ade5468f" class="message" data-pjax="true" title="Add nodejs package">Add nodejs package</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-08-07T00:01:31Z" is="time-ago">Aug 7, 2015</time></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/taigaio/taiga-doc/blob/master/webhooks.adoc" class="js-directory-link js-navigation-open" id="f3d8517c8edb3c948f200b090a5a5287-d39a3810a19b6584b8ee8ba2419fa7268811eb0b" title="webhooks.adoc">webhooks.adoc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/taigaio/taiga-doc/commit/8b35190d0a6732b9cdf37d13f9b755c4172cc812" class="message" data-pjax="true" title="Update README re: JSON trailing comma notification and fix webhooks.adoc">Update README re: JSON trailing comma notification and fix webhooks.adoc</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-28T06:44:47Z" is="time-ago">Jan 28, 2015</time></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+  <div id="readme" class="boxed-group flush clearfix announce instapaper_body md">
+    <h3>
+      <span class="octicon octicon-book"></span>
+      README.md
+    </h3>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-taiga-documentation-source" class="anchor" href="#taiga-documentation-source" aria-hidden="true"><span class="octicon octicon-link"></span></a>Taiga documentation source</h1>
+
+<p><a href="https://camo.githubusercontent.com/8d3cb9b35cdc9ccd4d01fe52e7d0a73ecfc37cfb/687474703a2f2f6b616c6569646f732e6e65742f7374617469632f696d672f62616467652e706e67" target="_blank"><img src="https://camo.githubusercontent.com/8d3cb9b35cdc9ccd4d01fe52e7d0a73ecfc37cfb/687474703a2f2f6b616c6569646f732e6e65742f7374617469632f696d672f62616467652e706e67" alt="Kaleidos Project" title="Kaleidos Project" data-canonical-src="http://kaleidos.net/static/img/badge.png" style="max-width:100%;"></a>
+<a href="https://taiga.io" title="Managed with Taiga"><img src="https://camo.githubusercontent.com/70c3c1895899159ce7bfb961f174bbb53fc5151b/68747470733a2f2f74616967612e696f2f6d656469612f737570706f72742f6174746163686d656e74732f61727469636c652d32322f62616e6e65722d67682e706e67" alt="Managed with Taiga" data-canonical-src="https://taiga.io/media/support/attachments/article-22/banner-gh.png" style="max-width:100%;"></a></p>
+
+<blockquote>
+<p><em>Status:</em> <em>Still a work in progress</em></p>
+</blockquote>
+
+<p>Web: <a href="http://taigaio.github.io/taiga-doc/dist/">http://taigaio.github.io/taiga-doc/dist/</a></p>
+
+<h3><a id="user-content-setup-initial-environment-for-developers" class="anchor" href="#setup-initial-environment-for-developers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setup initial environment (for developers)</h3>
+
+<p>Install requirements: Ruby / <code>asciidoctor</code> + <code>pygments.rb</code> (installed via. <code>bundler</code> using the provided <code>Gemfile</code>)</p>
+
+<p>You can install Ruby through the apt package manager, pacman, rbenv, or rvm.</p>
+
+<p>Confirm that <code>Gemfile</code> is in the base <code>taiga-doc</code> directory and then perform the installation from that directory:</p>
+
+<pre><code>$ cd taiga-doc
+$ export PATH=$(ruby -e "print Gem.user_dir")"/bin:$PATH"
+$ export GEM_HOME=$(ruby -e 'print Gem.user_dir')
+$ gem install bundler
+$ bundle
+$ asciidoctor -v // should return Asciidoctor 1.5.1 ...
+</code></pre>
+
+<h3><a id="user-content-optional-setup-live-preview-in-browser" class="anchor" href="#optional-setup-live-preview-in-browser" aria-hidden="true"><span class="octicon octicon-link"></span></a>(Optional) Setup live preview in browser</h3>
+
+<blockquote>
+<p><em>Prerequisite: Initial environment above must be setup and working</em></p>
+</blockquote>
+
+<h4><a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h4>
+
+<p>This step is optional but highly recommended in order to ease the process of editing AsciiDoc files, by rendering the HTML from the source <code>.adoc</code> file as soon as any modifications are saved - allowing for instant preview in the browser.</p>
+
+<p>The following instructions are based on:</p>
+
+<ul>
+<li>The Asciidoctor page: <a href="http://asciidoctor.org/docs/editing-asciidoc-with-live-preview/">Editing AsciiDoc with Live Preview</a></li>
+<li>The Guard README: <a href="https://github.com/guard/guard#guard">Guard: README.md</a></li>
+</ul>
+
+<h4><a id="user-content-installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h4>
+
+<p>If the <code>bundler</code> install completed successfully, all of the gems will already be in place (including both Guard and the shell file monitor).</p>
+
+<p>For notifications to work properly:</p>
+
+<blockquote>
+<p>You have to install the libnotify-bin package with your favorite package manager</p>
+
+<p>-- <a href="https://github.com/guard/guard/wiki/System-notifications#libnotify">Guard: System notifications - Libnotify</a></p>
+</blockquote>
+
+<p>For example, on a Debian-based system:</p>
+
+<pre><code>$ sudo apt-get install libnotify-bin
+</code></pre>
+
+<p>Or in Arch</p>
+
+<pre><code>$ yaourt -S libnotify
+</code></pre>
+
+<h4><a id="user-content-ensure-guard-is-working" class="anchor" href="#ensure-guard-is-working" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ensure Guard is working</h4>
+
+<blockquote>
+<p>It's important that you always run Guard through Bundler to avoid errors.</p>
+
+<p>-- <a href="https://github.com/guard/guard#guard">Guard: README.md</a></p>
+</blockquote>
+
+<p>Confirm that <code>Guardfile</code> is in the base <code>taiga-doc</code> directory and then start Guard from that directory:</p>
+
+<pre><code>$ cd taiga-doc
+$ bundle exec guard
+</code></pre>
+
+<ul>
+<li>Open <code>index.adoc</code> in a text editor, make a minor modification and then save the file</li>
+<li>If Guard is working properly, <code>dist/index.html</code> will be created/updated automatically</li>
+<li>If <code>libnotify</code> is configured correctly, a notification will be shown confirming that <code>index.adoc</code> has been found and rendered accordingly</li>
+</ul>
+
+<h4><a id="user-content-configure-live-preview-in-the-browser" class="anchor" href="#configure-live-preview-in-the-browser" aria-hidden="true"><span class="octicon octicon-link"></span></a>Configure live preview in the browser</h4>
+
+<blockquote>
+<p><em>Note: The <a href="http://asciidoctor.org/docs/editing-asciidoc-with-live-preview/">Asciidoctor page</a> suggests using LiveReload with the <code>guard-livereload</code> gem but this package is <a href="http://feedback.livereload.com/knowledgebase/articles/86181-failed-to-start-port-occupied">no longer compatible with LiveReload 2</a></em></p>
+</blockquote>
+
+<p>Simply use a browser that has auto-reload built-in or install a relevant browser add-on.</p>
+
+<p>Examples include:</p>
+
+<ul>
+<li><a href="https://wiki.gnome.org/Apps/Web">Web</a> web browser (formerly Epiphany web browser) - has built-in auto-reload functionality</li>
+<li>Firefox + <a href="https://addons.mozilla.org/en-US/firefox/addon/auto-reload/">Auto Reload</a> add-on</li>
+<li><em>[Please add other working configurations here]</em></li>
+</ul>
+
+<h4><a id="user-content-test-live-preview" class="anchor" href="#test-live-preview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Test live preview</h4>
+
+<ul>
+<li>Open <code>dist/index.html</code> in the browser</li>
+<li>As before, save a modification to <code>index.adoc</code></li>
+<li>Once Guard has rendered the new copy of <code>dist/index.html</code>, the browser will auto-reload the page</li>
+</ul>
+
+<h4><a id="user-content-working-with-live-preview" class="anchor" href="#working-with-live-preview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Working with live preview</h4>
+
+<p>Some tips/notes about working with live preview:</p>
+
+<ul>
+<li>Position the text editor and web browser windows side-by-side (or on different screens!), save changes and see the result in the browser almost immediately</li>
+<li>Changes to any of the <code>.adoc</code> files within the <code>api/</code> directory or its sub-dirs will render <code>dist/api.html</code> - since many <code>.adoc</code> files are combined to render the single HTML file, there is a slight lag in the live preview as the conversion process completes</li>
+<li>Otherwise, there is a 1:1 relationship between the <code>.adoc</code> file and its rendered <code>.html</code> file - changes to these are displayed almost instantaneously</li>
+</ul>
+</article>
+  </div>
+
+
+        </div>
+      </div>
+      <div class="modal-backdrop"></div>
+    </div>
+  </div>
+
+
+    </div>
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://github.com/pricing" data-ga-click="Footer, go to pricing, text:pricing">Pricing</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.05014s from github-fe133-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <span class="octicon octicon-x"></span>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-f8473dece7242da6a20d52313634881b3975c52cebaa1e6c38157c0f26185691.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-29b731620373d510227f8d67ff64cca1a52a6fb5f88f49d60ab0c39d1016a865.js"></script>
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <span class="octicon octicon-alert"></span>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+  </body>
+</html>
+
